@@ -1,0 +1,18 @@
+.header {
+  padding: 15px 0;
+  text-align: center;
+  width: 100%;
+  border-bottom: 3px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to left, #ffffff, #067e78, #ffffff);
+
+  &__title {
+    font-family: "Playfair Display", sans-serif;
+    line-height: 60px;
+    font-weight: 300;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+  }
+}
