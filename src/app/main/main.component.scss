@@ -1,0 +1,35 @@
+.navigation {
+  margin-bottom: 20px;
+  display: flex;
+
+  justify-content: center;
+  gap: 30px;
+
+  &__button {
+    padding: 0 10px;
+
+    width: 150px;
+    height: 50px;
+
+    background-color: #757a80;
+    border: 0;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: 0;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &--active {
+      background-color: #0b978c;
+    }
+
+    &:not(&--active):hover {
+      background-color: #4c4e50;
+    }
+  }
+}
